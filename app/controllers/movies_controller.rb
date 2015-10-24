@@ -12,10 +12,6 @@ class MoviesController < ApplicationController
 
   def index
     @movies = Movie.all
-<<<<<<< HEAD
-=======
-    
->>>>>>> d9fc4dae701023817f2539596fca7b047cc71049
   end
 
   def new
