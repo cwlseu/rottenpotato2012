@@ -1,7 +1,7 @@
 -#  This file is app/views/movies/index.html.haml
 %h1 All Movies
 
-<<<<<<< HEAD
+
 = form_tag movies_path, :method => :get, :id => 'ratings_form' do
   = hidden_field_tag "title_sort", true if @title_header
   = hidden_field_tag ":release_date_sort", true if @date_header
@@ -17,15 +17,6 @@
       %th{:class => @title_header}= link_to 'Movie Title', movies_path(:sort => 'title', :ratings => @selected_ratings), :id => 'title_header'
       %th Rating
       %th{:class => @date_header}= link_to 'Release Date', movies_path(:sort => 'release_date',:ratings => @selected_ratings), :id => 'release_date_header'
-=======
-%table#movies
-  %thead
-    %tr
-      %th Movie Title
-      %th Rating
-      %th Release Date
->>>>>>> 9cbc95e0cc6b2d928c2a4337532d9e715c362242
-      %th More Info
   %tbody
     - @movies.each do |movie|
       %tr
@@ -34,8 +25,4 @@
         %td= movie.release_date
         %td= link_to "More about #{movie.title}", movie_path(movie)
 
-<<<<<<< HEAD
 = link_to 'Add new movie', new_movie_path
-=======
-= link_to 'Add new movie', new_movie_path
->>>>>>> 9cbc95e0cc6b2d928c2a4337532d9e715c362242
