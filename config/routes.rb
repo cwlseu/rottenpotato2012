@@ -15,7 +15,11 @@ Rails.application.routes.draw do
   #   resources :products
 
   resources :movies
+<<<<<<< HEAD
   root 'movies#index'
+=======
+  
+>>>>>>> 9cbc95e0cc6b2d928c2a4337532d9e715c362242
   # Example resource route with options:
   #   resources :products do
   #     member do

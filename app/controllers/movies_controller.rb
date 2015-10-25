@@ -11,6 +11,7 @@ class MoviesController < ApplicationController
   end
 
   def index
+<<<<<<< HEAD
     sort = params[:sort] || session[:sort]
     case sort
     when 'title'
@@ -45,6 +46,13 @@ class MoviesController < ApplicationController
   end
 
   def new 
+=======
+    @movies = Movie.all
+  end
+
+  def new
+    # default: render 'new' template
+>>>>>>> 9cbc95e0cc6b2d928c2a4337532d9e715c362242
   end
 
   def create
@@ -70,4 +78,8 @@ class MoviesController < ApplicationController
     flash[:notice] = "Movie '#{@movie.title}' deleted."
     redirect_to movies_path
   end
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9cbc95e0cc6b2d928c2a4337532d9e715c362242
 end
