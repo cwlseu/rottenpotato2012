@@ -18,11 +18,10 @@ class MoviesController < ApplicationController
     when 'release_date'
       ordering,@date_header = {:sort => :release_date},'hilite'
     end
-    # sort by request
-    @movies = Movie.order(ordering[:sort]).all
+    
     @all_ratings = Movie.all_ratings
     @selected_ratings = params[:ratings] || session[:ratings] || {}
-
+    puts @selected_ratings
     if @selected_ratings == {}
       @selected_ratings = Hash[@all_ratings.map {|rating| [rating, rating]}]
     end
@@ -38,11 +37,14 @@ class MoviesController < ApplicationController
       flash.keep
       redirect_to :sort => sort, :ratings => @selected_ratings and return
     end
-    @movies = Movie.order(ordering[:sort]).all
+    # sort by request
+    # Note: There some tricky thing for method find
+    # @movies =  Movie.find(:all,:order=>ordering[:sort],:conditions=>['rating IN (?)', @selected_ratings.keys])
+    @movies =  Movie.where(rating: @selected_ratings.keys).order(ordering[:sort]).all
+    print @movies
   end
 
-  def new
-    # default: render 'new' template
+  def new 
   end
 
   def create
@@ -68,5 +70,4 @@ class MoviesController < ApplicationController
     flash[:notice] = "Movie '#{@movie.title}' deleted."
     redirect_to movies_path
   end
-
 end
