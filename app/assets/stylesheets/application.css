@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-<<<<<<< HEAD
+
 html, body {
   margin: 0;
   padding: 0;
@@ -78,5 +78,3 @@ form label {
   font-weight: bold;
   color: maroon;
 }
-=======
->>>>>>> 9cbc95e0cc6b2d928c2a4337532d9e715c362242

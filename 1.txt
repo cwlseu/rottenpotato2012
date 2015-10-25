@@ -1,0 +1,271 @@
+ 1213  heroku login
+ 1214  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1215  heroku login
+ 1216  heroku
+ 1219  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1220  heroku
+ 1225  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh
+ 1226  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh |sh
+ 1227  heroku 
+ 1228  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh |sh
+ 1229  heroku 
+ 1230  heroku login
+ 1236  heroku key:add
+ 1237  heroku keys:add
+ 1238  heroku create
+ 1272  git push heroku master
+ 1274  git push git@heroku.com:rottenpotato2012.git
+ 1278  heroku  git:remote -a rottenpotato2012
+ 1283  git push heroku master
+ 1284  git push git@heroku.com:rottenpotato2012.git
+ 1285  heroku log/
+ 1286  heroku login
+ 1287  git push heroku master
+ 1361  heroku git:remote -a rottenpotato2012
+ 1366  git push heroku master
+ 1370  git push heroku master
+ 1371  heroku login
+ 1372  git push heroku master
+ 1373  git remote add heroku     git@heroku.com:rottenpotato2012.git
+ 1374  heroku logi
+ 1375  heroku login
+ 1377  heroku git:remote -a rottenpotato2012
+ 1378  git push heroku master
+ 1383  heroku git:remote -a rottenpotato2012
+ 1384  git push heroku master
+ 1385  heroku remote add heroku  git@heroku.com:rottenpotato2012.git
+ 1386  git remote add heroku  git@heroku.com:rottenpotato2012.git
+ 1395  heroku create --rottenpotato
+ 1396  heroku create rottenpotato
+ 1397  sudo git push heroku master 
+ 1398  git push heroku master 
+ 1399  git push heroku master
+ 1401  git push heroku master
+ 1402  heroku login
+ 1403  git push heroku master
+ 1408  git push heroku master
+ 1414  git push heroku master
+ 1415  heroku login
+ 1416  git push heroku master
+ 1417  heroku git:remote -a rottenpotato2012
+ 1418  git push heroku master
+ 1419  heroku open
+ 1420  heroku log --tail
+ 1421  heroku logs --tail
+ 1424  git push heroku master
+ 1425  heroku login
+ 1426  git push heroku master
+ 1427  heroku git:remote -a rottenpotato2012
+ 1428  git push heroku master
+ 1430  git push heroku master
+ 1439  heroku git:remote -a rottenpotato2012
+ 1440  heroku login
+ 1441  git push heroku master
+ 1442  heroku open
+ 1444  heroku create
+ 1446  heroku git:remote -a fast-headland-1938
+ 1447  git push heroku master
+ 1448  heroku open
+ 1450  heroku pg
+ 1480  heroku login
+ 1484  git push heroku master
+ 1485  heroku pg
+ 1486  heroku open
+ 1506  git push heroku master
+ 1508  heroku login
+ 1509  git push heroku master
+ 1511  heroku git:remote -a fast-headland-1938
+ 1512  git push heroku master
+ 1513  heroku open
+ 1516  git push heroku master
+ 1517  heroku open
+ 1519  heroku logs -tail
+ 1520  heroku logs --tail
+ 1532  heroku local web
+ 1537  git push heroku master
+ 1543  git push heroku master
+ 1546  git push heroku master
+ 1547  heroku open
+ 1644  heroku login
+ 1645  history | heroku
+ 1646  history | grep  heroku
+ 1647  git remote add heroku  git@heroku.com:rottenpotato2012.git
+ 1650  git push heroku master
+ 1651  heroku git:remote -a rottenpotato2012
+ 1652  git push heroku master
+ 1653  git pull https://git.heroku.com/rottenpotato2012.git
+ 1655  git push heroku master
+ 1659  git push heroku master
+ 1664  git push heroku master
+ 1666  git push heroku master
+ 1667  heroku open
+ 1671  git pull https://git.heroku.com/rottenpotato2012.git
+ 1692  git remote add herokuorgin https://github.com/cwlseu/rottenpotato.git
+ 1693  git remote add gitorigin https://git.heroku.com/rottenpotato2012.git
+ 1694  git remote add herokuorigin https://git.heroku.com/rottenpotato2012.git
+ 1696  git push herokuorigin
+ 1709  heroku create 
+ 1710  git remote add herokuorigin https://git.heroku.com/afternoon-savannah-8861.git
+ 1711  git remote add  herokuorigin2 https://git.heroku.com/afternoon-savannah-8861.git
+ 1712  git push herokuorigin2
+ 1718  git push herokuorigin2
+ 1719  git push herokuorigin
+ 1720  heroku git:remote -a rottenpotato2012
+ 1722  git push heroku master
+ 1723  heroku open
+ 1725  git commit -m "Update for heroku
+ 1727  git commit -m "Update for heroku"
+ 1728  git push heroku master
+ 1730  heroku create
+ 1731  heroku git:remote -a warm-cove-7453
+ 1732  git push heroku master
+ 1751  git push heroku master
+ 1752  heroku login
+ 1753  git push heroku master
+ 1754  heroku git:remote -a warm-cove-7453
+ 1755  git push heroku master
+ 1756  heroku open
+ 1757  heroku
+ 1758  heroku run
+ 1759  heroku run rails generate 
+ 1760  heroku run rails generate migration create_movies
+ 1761  heroku run rails server
+ 1762  heroku run rails db
+ 1763  heroku run rails -h
+ 1764  heroku run -s Profile
+ 1765  heroku run  Profile
+ 1767  heroku -h
+ 1768  heroku run
+ 1769  heroku run rails -h
+ 1770  heroku run rails db:seed
+ 1771  heroku run bash
+ 1772  heroku git:remote -a rottenpotato2012
+ 1773  heroku run bash
+ 1774  heroku ps:scale web=1
+ 1775  git push heroku master
+ 1776  heroku run bash
+ 1779  git push heroku master
+ 1780  heroku open
+ 1794  heroku login
+ 1795  heroku run rake db:setup
+ 1796  heroku run hash
+ 1797  heroku run rake bash
+ 1798  heroku run  bash
+ 1799  heroku run rake db:setup
+ 1800  git pull herokuorigin
+ 1802  heroku run rake db:setup
+ 1805  heroku run  bash
+ 1806  history | grep heroku
+ 1808  git pull heroku origin
+ 1809  git pull https://git.heroku.com/rottenpotato2012.git
+ 1813  git push heroku master
+ 1814  heroku open
+ 1816  heroku run bash
+ 1817  heroku run rails db
+ 1818  heroku run rails server
+ 1819  heroku run rake db:migrate
+ 1820  heroku run rake db:seed
+ 1821  heroku run rails server
+ 1822  heroku run rake db:setup
+ 1823  heroku run rake db:rollback
+ 1824  heroku run rake db:setup
+ 1825  heroku run rake db:migrate 
+ 1826  heroku run rake db:seed
+ 1827  heroku run rails server
+ 1828  heroku open
+ 1829  heroku open 
+ 1830  heroku run bash
+ 1833  history | grep heroku
+ 1835  heroku git:remote -a rottenpotato2012
+ 1836  git push heroku master
+ 1841  heroku git:remote -a rottenpotato2012
+ 1842  git push heroku master
+ 1843  git pull https://git.heroku.com/rottenpotato2012.git
+ 1844    https://git.heroku.com/rottenpotato2012.git
+ 1848  git push heroku master
+ 1849  heroku run rake db:setup
+ 1850  heroku  open
+ 1851  heroku run rake db:drop
+ 1852  heroku logs -p postgres -t
+ 1853  heroku login
+ 1854  heroku logs -p postgres -t
+ 1856  heroku login
+ 1860  heroku login
+ 1861  heroku keys:add
+ 1862  heroku run rake db:setup
+ 1863  heroku git:remote -a rottenpotato2012
+ 1864  heroku run rake db:setup
+ 1865  heroku addons | grep POSTGRES
+ 1866  heroku addons:create heroku-postgresql:hobby-dev
+ 1868  heroku run rake db:setup
+ 1869  heroku pg:reset DATABASE
+ 1870  heroku run rake db:setup
+ 1871  heroku run rake db:drop
+ 1872  heroku pg:psql
+ 1873  heroku logs -p postgres -t
+ 1874  heroku config:add 'ROLES=[admin,user,VIP]'
+ 1875  heroku config:add ADMIN_NAME='First User' ADMIN_EMAIL='cwlseu@qq.com' ADMIN_PASSWORD='wenlong1992'
+ 1876  heroku config
+ 1877  heroku run rake db:setup
+ 1878  heroku run rake db:migrate
+ 1879  heroku run rake db:seed
+ 1880  heroku run rails server
+ 1881  history | grep heroku
+ 1882  heroku run bash
+ 1884  heroku login
+ 1885  heroku ps:scale web=1
+ 1886  git push heroku master
+ 1888  history | grep "git add heroku"
+ 1889  heroku git:remote -a rottenpotato2012
+ 1890  git push heroku master
+ 1891  heroku run rails server restart
+ 1892  heroku git:remote -a heroku-postgres-8d0ab2d7
+ 1893  git push heroku master
+ 1894  heroku run rake db:migrate
+ 1895  heroku run rake db:seed
+ 1896  heroku run rails server
+ 1897  heroku git:remote -a rottenpotato2012
+ 1898  git pull https://git.heroku.com/rottenpotato2012.git
+ 1901  git push heroku master 
+ 1902  heroku run rails server
+ 1903  heroku run kill ps
+ 1904  heroku run ps
+ 1905  heroku ps
+ 1906  heroku ps:stop run.4980
+ 1907  heroku ps:stop run.6522
+ 1908  heroku run rails server
+ 1909  heroku ps:stop run.3110
+ 1910  heroku ps
+ 1911  heroku run rake db:rollback
+ 1912  heroku run rake db:setup
+ 1913  heroku run rake db:migrate
+ 1914  heroku run rake db:seed
+ 1915  heroku run rails s
+ 1916  heroku ps:scale web=1
+ 1917  heroku run bundle install
+ 1918  heroku run rake db:migrate
+ 1919  heroku run rake db:reset
+ 1920  heroku run rake db:migrate
+ 1921  heroku run pg:reset
+ 1922  heroku pg:reset
+ 1923  heroku restart
+ 1924  heroku db:reset
+ 1925  heroku pg:reset
+ 1926  heroku run rake db:version
+ 1928  heroku run bash
+ 1930  heroku create
+ 1931   https://git.heroku.com/aqueous-fjord-6266.git
+ 1932  heroku git:remote -a aqueous-fjord-6266
+ 1938  heroku login
+ 1939  git push heroku master 
+ 1940  history | grep heroku
+ 1941  git push heroku master 
+ 1942  heroku run rake db:migrate
+ 1943  heroku run rake db:seed
+ 1944  heroku run rails server
+ 1945  heroku git:remote -a rottenpotato2012
+ 1946  heroku run rails server
+ 1952  git push heroku master
+ 2002  history | heroku
+ 2003  history | grep heroku
+ 2004  history | grep heroku > 1.txt
