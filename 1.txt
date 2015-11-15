@@ -1,17 +1,12 @@
  1213  heroku login
  1214  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
  1215  heroku login
- 1216  heroku
- 1219  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
- 1220  heroku
- 1225  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh
- 1226  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh |sh
- 1227  heroku 
- 1228  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh |sh
  1229  heroku 
  1230  heroku login
  1236  heroku key:add
  1237  heroku keys:add
+
+ 
  1238  heroku create
  1272  git push heroku master
  1274  git push git@heroku.com:rottenpotato2012.git
